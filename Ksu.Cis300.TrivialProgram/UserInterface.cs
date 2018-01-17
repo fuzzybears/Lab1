@@ -7,12 +7,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+/* UserInterface.cs
+ * Author: Frank Hatcher
+ */
 namespace Ksu.Cis300.TrivialProgram
 {
-    public partial class Form1 : Form
+    /// <summary>
+    /// A GUI for a program that opens an empty window.
+    ///
+    /// </summary>
+    public partial class UserInterface : Form
     {
-        public Form1()
+        /// <summary>
+        /// Constructs the GUI.
+
+        /// </summary>
+        public UserInterface()
         {
             InitializeComponent();
         }
